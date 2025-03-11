@@ -1,17 +1,17 @@
 "use client";
 
 // Example of how to use these CSS files with your component
-import { useContext } from "react";
+/* import { useContext } from "react"; */
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../../Context/AuthContext";
+/* import { AuthContext } from "../../Context/AuthContext"; */
 import "./HomePage.css"; // Import the HomePage CSS
 import { QuizmaniaLogo } from "../../Components/Logo/Logo";
 
 const HomePage = () => {
-  const authContext = useContext(AuthContext);
+  /* const authContext = useContext(AuthContext); */
   const navigate = useNavigate();
 
-  if (!authContext) {
+  /*   if (!authContext) {
     throw new Error("AuthContext must be used within an AuthProvider");
   }
 
@@ -20,7 +20,7 @@ const HomePage = () => {
   const handleSignOut = async () => {
     await signOut();
     navigate("/"); // Redirect to login page after sign-out
-  };
+  };  */
 
   return (
     <div className="page-wrapper">
@@ -45,9 +45,9 @@ const HomePage = () => {
           </button>
         </div>
 
-        <button onClick={handleSignOut} className="btn signout">
+        {/*    <button onClick={handleSignOut} className="btn signout">
           Sign Out
-        </button>
+        </button> */}
       </div>
     </div>
   );

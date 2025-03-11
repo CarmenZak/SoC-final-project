@@ -1,4 +1,4 @@
-// src/context/AuthContext.tsx
+/* // src/context/AuthContext.tsx
 import {
   createContext,
   useState,
@@ -91,3 +91,4 @@ export const useAuth = () => {
 };
 
 export { AuthContext };
+ */
