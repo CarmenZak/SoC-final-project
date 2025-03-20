@@ -235,9 +235,7 @@ input:focus {
   height: 100%;
 }
 
-/* This file imports our theme and app styles */
-@import "./theme.css";
-@import "./app.css";
+
 
 /* Any additional global styles can go here */
 /* But we'll try to keep this file minimal and organized */
